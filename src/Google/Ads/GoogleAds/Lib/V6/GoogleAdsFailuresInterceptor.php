@@ -33,18 +33,18 @@ class GoogleAdsFailuresInterceptor extends Interceptor
      * @param mixed $method
      * @param mixed $argument
      * @param callable $deserialize
+     * @param callable $continuation
      * @param array $metadata
      * @param array $options
-     * @param callable $continuation
      * @return GoogleAdsFailuresUnaryCall
      */
     public function interceptUnaryUnary(
         $method,
         $argument,
         $deserialize,
+        $continuation,
         array $metadata = [],
-        array $options = [],
-        $continuation
+        array $options = []
     ) {
         // @codingStandardsIgnoreEnd
         // phpcs:enable

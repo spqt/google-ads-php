@@ -54,9 +54,9 @@ class GoogleAdsLoggingInterceptor extends Interceptor
         $method,
         $argument,
         $deserialize,
+        $continuation,
         array $metadata = [],
-        array $options = [],
-        $continuation
+        array $options = []
     ) {
         // @codingStandardsIgnoreEnd
         // phpcs:enable
@@ -84,9 +84,9 @@ class GoogleAdsLoggingInterceptor extends Interceptor
         $method,
         $argument,
         $deserialize,
+        $continuation,
         array $metadata = [],
-        array $options = [],
-        $continuation
+        array $options = []
     ) {
         // @codingStandardsIgnoreEnd
         // phpcs:enable
